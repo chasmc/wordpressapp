@@ -2,11 +2,32 @@ body{
   margin:0 25%;
 }
 
-.heading{
+header{
   height:75px;
   background-color:#118bc0;
 }
 
+.logo{
+  padding-left:20px;
+}
+
+
+/*login button*/
+.loginbox{
+  float:right;
+  background-color:#006ea1;
+  height:75px;
+  width:20%;
+}
+
+.loginbox a{
+  display:inline-block;
+  padding:25%;
+  color:white;
+  text-decoration:none;
+}
+
+/*wordpress.com*/
 .wordpress{
   color:white;
 }
@@ -27,24 +48,6 @@ body{
 
 }
 
-.loginbox{
-  float:right;
-  background-color:#006ea1;
-  height:75px;
-  width:20%;
-}
-
-.loginbox a{
-  display:inline-block;
-  padding:25%;
-  color:white;
-  text-decoration:none;
-}
-
-.logo{
-  padding-left:20px;
-}
-
 h2{
   text-align:center;
   color:white;
@@ -54,15 +57,16 @@ h2{
   font-weight:lighter;
 }
 
+.sec1{
+  height:1050px;
+  background-image:url("../images/crowd.jpg");
+}
+
 .sec1 p{
   text-align:center;
   color:white;
 }
 
-.sec1{
-  height:1050px;
-  background-image:url("../images/crowd.jpg");
-}
 
 /*create website box*/
 .box1{
@@ -91,7 +95,6 @@ h2{
   margin:0 auto;
   margin-top:200px;
 }
-
 .carrot{
   transform:rotate(180deg);
   position:relative;
@@ -106,9 +109,9 @@ h2{
   opacity:.3;
 }
 
-/*tablet section*/
 
-.box3{
+/*tablet section*/
+.crowdtext1{
   height:75px;
   width:325px;
   margin:0 auto;
@@ -119,25 +122,22 @@ h2{
 .tablet{
   float:left;
 }
-
-/*text*/
-.box3 h4{
+.crowdtext1 h4{
   color:white;
   clear:both;
   display:inline;
   position:relative;
   left:10px;
 }
-
-.box3 p{
+.crowdtext1 p{
   margin-top:10px;
   float:left;
   padding-left:10px;
 }
 
-/*newspaper section*/
 
-.box4{
+/*newspaper section*/
+.crowdtext2{
   height:75px;
   width:325px;
   margin:0 auto;
@@ -145,50 +145,42 @@ h2{
   position:relative;
   top:75px;
 }
-
 .newspaper{
   float:left;
 }
-
-/*text*/
-.box4 h4{
+.crowdtext2 h4{
   color:white;
   clear:both;
   display:inline;
   position:relative;
   left:10px;
 }
-
-.box4 p{
+.crowdtext2 p{
   margin-top:10px;
   float:left;
   padding-left:10px;
 }
 
-/*paintbrush section*/
 
-.box5{
+/*paintbrush section?*/
+.crowdtext3{
   height:75px;
   width:325px;
   margin:0 auto;
   position:relative;
   top:100px;
 }
-
 .paintbrush{
   float:left;
 }
-
-/*text*/
-.box5 h4{
+.crowdtext3 h4{
   color:white;
   clear:both;
   display:inline;
   position:relative;
   left:10px;
 }
-
-.box5 p{
+.crowdtext3 p{
   margin-top:10px;
   float:left;
   padding-left:10px;
@@ -196,12 +188,12 @@ h2{
 
 
 /*wordpress blurb*/
-.sec2{
+.blurb{
   height:200px;
   background-color:#e8f0f5;
 }
 
-.sec2 h3{
+.blurb h3{
   margin:0 auto;
   text-align:center;
   color:black;
@@ -215,10 +207,71 @@ h2{
 }
 
 
-/*boxes of info with icons*/
+/*boxes of info with circle icons*/
 .sec3{
   height:1600px;
   background-color:#d1d3d7;
+}
+
+
+/*all icon boxes*/
+.iconbox{
+  padding:0 50px;
+  padding-bottom:20px;
+}
+/*lightbulb box*/
+.box6{
+  height:200px;
+  width:500px;
+  background-color:white;
+  margin:0 auto;
+  position:relative;
+  top:40px;
+}
+/*cloud box*/
+.box7{
+  height:200px;
+  width:500px;
+  background-color:white;
+  margin:0 auto;
+  position:relative;
+  top:80px;
+}
+/*code box*/
+.box8{
+  height:200px;
+  width:500px;
+  background-color:white;
+  margin:0 auto;
+  position:relative;
+  top:120px;
+}
+/*comments box*/
+.box9{
+  height:200px;
+  width:500px;
+  background-color:white;
+  margin:0 auto;
+  position:relative;
+  top:160px;
+}
+/*gift box*/
+.box10{
+  height:200px;
+  width:500px;
+  background-color:white;
+  margin:0 auto;
+  position:relative;
+  top:200px;
+}
+/*globe box*/
+.box11{
+  height:200px;
+  width:500px;
+  background-color:white;
+  margin:0 auto;
+  position:relative;
+  top:240px;
 }
 
 /*style for all icons*/
@@ -241,76 +294,9 @@ h2{
   margin-top:30px;
   text-align:center;
 }
-
 .icontext p{
   margin-top:0px;
   text-align:center;
-}
-
-/*all icon boxes*/
-.iconbox{
-  padding:0 50px;
-  padding-bottom:20px;
-}
-
-/*lightbulb box*/
-.box6{
-  height:200px;
-  width:500px;
-  background-color:white;
-  margin:0 auto;
-  position:relative;
-  top:40px;
-}
-
-/*cloud box*/
-.box7{
-  height:200px;
-  width:500px;
-  background-color:white;
-  margin:0 auto;
-  position:relative;
-  top:80px;
-}
-
-/*code box*/
-.box8{
-  height:200px;
-  width:500px;
-  background-color:white;
-  margin:0 auto;
-  position:relative;
-  top:120px;
-}
-
-/*comments box*/
-.box9{
-  height:200px;
-  width:500px;
-  background-color:white;
-  margin:0 auto;
-  position:relative;
-  top:160px;
-}
-
-/*gift box*/
-.box10{
-  height:200px;
-  width:500px;
-  background-color:white;
-  margin:0 auto;
-  position:relative;
-  top:200px;
-}
-
-/*globe box*/
-.box11{
-  height:200px;
-  width:500px;
-  background-color:white;
-  margin:0 auto;
-  position:relative;
-  top:240px;
 }
 
 
@@ -319,18 +305,7 @@ h2{
   height:200px;
   background-color:#e8f0f5;
 }
-
-/*box around create website*/
-.box12{
-  height:50px;
-  width:225px;
-  margin:0 auto;
-  position:relative;
-  top:80px;
-  background-color:#006ea1;
-}
-
-/*wordpress powers...*/
+/*wordpress powers text*/
 .text{
   margin:0;
   text-align:center;
@@ -340,8 +315,16 @@ h2{
   font-size:25px;
   font-weight:lighter;
 }
-
-/*create website*/
+/*box around create website text*/
+.box12{
+  height:50px;
+  width:225px;
+  margin:0 auto;
+  position:relative;
+  top:80px;
+  background-color:#006ea1;
+}
+/*create website text*/
 .box12 h3{
   color:white;
   text-align:center;
